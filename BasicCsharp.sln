@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Namespace", "Namespace\Name
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{D5C04C90-8C60-4A0E-922D-194D82CF1DDE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variable", "Variable\Variable.csproj", "{EF97ABDA-23DF-47AD-A493-B8B081ABB277}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D5C04C90-8C60-4A0E-922D-194D82CF1DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5C04C90-8C60-4A0E-922D-194D82CF1DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5C04C90-8C60-4A0E-922D-194D82CF1DDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF97ABDA-23DF-47AD-A493-B8B081ABB277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF97ABDA-23DF-47AD-A493-B8B081ABB277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF97ABDA-23DF-47AD-A493-B8B081ABB277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF97ABDA-23DF-47AD-A493-B8B081ABB277}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
