@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BasicCsharp
+namespace HelloWorld
 {
     class Program
     {
@@ -14,4 +14,4 @@ namespace BasicCsharp
             Console.ReadKey();
         }
     }
-}
+} 

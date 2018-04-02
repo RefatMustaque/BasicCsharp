@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCsharp", "BasicCsharp\BasicCsharp.csproj", "{D5C04C90-8C60-4A0E-922D-194D82CF1DDE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Namespace", "Namespace\Namespace.csproj", "{3D658198-12B8-49C5-94CA-60CA388E0D10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{D5C04C90-8C60-4A0E-922D-194D82CF1DDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D658198-12B8-49C5-94CA-60CA388E0D10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D658198-12B8-49C5-94CA-60CA388E0D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D658198-12B8-49C5-94CA-60CA388E0D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D658198-12B8-49C5-94CA-60CA388E0D10}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D5C04C90-8C60-4A0E-922D-194D82CF1DDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D5C04C90-8C60-4A0E-922D-194D82CF1DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5C04C90-8C60-4A0E-922D-194D82CF1DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
