@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variable", "Variable\Variab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypeConversion", "DataTypeConversion\DataTypeConversion.csproj", "{B642091A-AD3B-4ADC-86C1-9844585F59CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeInfo", "EmployeeInfo\EmployeeInfo.csproj", "{77CABB9C-12DC-430D-8AE3-D0E0D836DCE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseSentence", "ReverseSentence\ReverseSentence.csproj", "{329EE598-B1C0-490F-B45C-C3A0A3F4F23C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{B642091A-AD3B-4ADC-86C1-9844585F59CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B642091A-AD3B-4ADC-86C1-9844585F59CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B642091A-AD3B-4ADC-86C1-9844585F59CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77CABB9C-12DC-430D-8AE3-D0E0D836DCE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77CABB9C-12DC-430D-8AE3-D0E0D836DCE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77CABB9C-12DC-430D-8AE3-D0E0D836DCE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77CABB9C-12DC-430D-8AE3-D0E0D836DCE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{329EE598-B1C0-490F-B45C-C3A0A3F4F23C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329EE598-B1C0-490F-B45C-C3A0A3F4F23C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329EE598-B1C0-490F-B45C-C3A0A3F4F23C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329EE598-B1C0-490F-B45C-C3A0A3F4F23C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

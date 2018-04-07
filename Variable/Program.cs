@@ -35,7 +35,7 @@ namespace Variable
             
             //showing the user's defined value back to the console screen
             Console.WriteLine("So you typed '" + sentence2 +"' from the keyboard");
-            Console.ReadKey();
+            Console.ReadKey();            
         }
     }
 }
