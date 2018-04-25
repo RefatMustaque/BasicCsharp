@@ -20,7 +20,7 @@ namespace EmployeeInfo
             JoiningDate = DateTime.Now;
         }
 
-        public Employee(string FirstName, string MiddleName, string LastName, DateTime JoiningDate, int preHouseNo, int preRoadNo, string preAreaName, int prePostalCode, int perHouseNo, int perRoadNo, string areaName, int perPostalCode) : this(FirstName, MiddleName, LastName, preHouseNo, preRoadNo, preAreaName, prePostalCode, perHouseNo, perRoadNo, perAreaName, perPostalCode )
+        public Employee(string FirstName, string MiddleName, string LastName, DateTime JoiningDate, int preHouseNo, int preRoadNo, string preAreaName, int prePostalCode, int perHouseNo, int perRoadNo, string perAreaName, int perPostalCode) : this(FirstName, MiddleName, LastName, preHouseNo, preRoadNo, preAreaName, prePostalCode, perHouseNo, perRoadNo, perAreaName, perPostalCode )
         {
             this.JoiningDate = JoiningDate;
         }
@@ -36,6 +36,16 @@ namespace EmployeeInfo
         public string GetFullName()
         {
             return this.EmployeeName.GetFullName();
+        }
+
+        public string GetPermanentAddress()
+        {
+            return this.PermanentAddress.GetFullAddress();
+        }
+
+        public string GetPresentAddress()
+        {
+            return this.PresentAddress.GetFullAddress();
         }
 
         public int GetEmploymenDurationInDays()

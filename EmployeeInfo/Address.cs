@@ -26,7 +26,7 @@ namespace EmployeeInfo
             this.PostalCode = postalCode;
         }
 
-        public string getFullAddress()
+        public string GetFullAddress()
         {
             return $"House No: {this.HouseNo}, Road No: {this.RoadNo}, Area Name: {this.AreaName} & Postal Code: {this.PostalCode}";
         }

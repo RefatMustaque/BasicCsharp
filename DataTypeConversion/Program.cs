@@ -14,15 +14,23 @@ namespace DataTypeConversion
             //int is 32 bit and long is 64 bit
             int number = 2323;
             long bigNumber = 12;
+            string inputNumber = "28374"; 
 
             //assigning the value of 'number' to the 'bigNumber'
             //so the bignumber = 2323 now
             bigNumber = number;
 
-            // converting 'bigNumber' to integer type then assigning it to 'number'
-            number = Convert.ToInt32(bigNumber);
+            number = Convert.ToInt32(bigNumber); //convert work with everything
 
-            Console.WriteLine("Your converted integer number is: " + number);
+            number = (int)bigNumber; //casting work with compatible type
+
+            //number = (int)inputNumber; //won't work
+
+            number = int.Parse(inputNumber); //Parse work with only string
+
+            //number = int.Parse(bigNumber); // won't work
+
+            Console.WriteLine("Your Parsed integer number is: " + number);
             Console.WriteLine();
 
             Console.WriteLine("Let's take value from the user and convert it to the integer");
