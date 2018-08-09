@@ -19,6 +19,22 @@ namespace Namespace
 
             //accessing "ShowHelloWorld()" method inside the "AnotherClass()" class
             hello.ShowHelloWorld();
+			Console.ReadKey();
         }
     }
+}
+
+namespace NamespaceExample
+{
+	namespace AnotherNamespace
+	{
+		public class AnotherClass
+		{
+			public void ShowHelloWorld()
+			{
+				Console.WriteLine("Hello World!");
+			}
+		}
+	}
+
 }
